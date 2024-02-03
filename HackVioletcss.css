@@ -1,11 +1,9 @@
-<html>
-
-	<head>
-
-	</head>
-
-	<body>
-
-	</body>
-
-</html>
+body {
+  background-color: #E9C9FF;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-family:WildWest;
+  color: white;
+}
