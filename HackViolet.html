@@ -1,84 +1,102 @@
 <!DOCTYPE html>
-<html>
+<html lang= "en">
 <head>
-	<html lang="en">
-		<meta charset="UTF-8">
-		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
-		<title>Women in Computing</title>
-		<style>
-			.subheadings {
-				font-size:27px;
-				margin:7px;
-			}
-			.image-text-wrapper {
-				position: relative;
-			}
-
-			.image-text-wrapper img {
-				width: 45%;
-				height: auto;
-				display: block;
-			}
-
-			.hover-text {
-				position: absolute;
-				top: 0;
-				left: 0;
-				width: 45%;
-				height: 100%;
-				background-color: rgba(0, 0, 0, 0.5);
-				color: white;
-				display: flex;
-				justify-content: center;
-				align-items: center;
-				opacity: 0;
-				transition: opacity 0.5s ease-in-out;
-			}
-
-			.image-text-wrapper:hover .hover-text {
-				opacity: 1;
-			}
-			
-			.text {
-				font-size:20px;
-				margin:10px;
-				padding:10px;
-			}
-			
-			.jumbotron {
-				margin-top: 70px;
-				margin-left: 15px;
-				margin-right: 15px;
-				margin-bottom: 20px;
-				background-color: #6800AF;
-				color: white;
-				padding: 20px;
-				border-radius: 10px 10px 10px 10px;
-			}
-			
-			.container {
-				
-		</style>
+    <meta charset="utf-8">
+	<title>F*ck the Patriarchy</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+  <style>
+  	.body {
+	  background-color: #E9C9FF;
+	  font-family:WildWest;
+	  color: white;
+	}
+    /* Add custom styles here */
+    .navbar {
+      background-color: #F77EFF;
+      overflow: hidden;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+	  padding: 0px;
+    }
+    .jumbotron {
+      margin-top: 70px;
+      margin-left: 15px;
+      margin-right: 15px;
+      background-color: #6800AF;
+      color: white;
+      padding: 20px;
+	  border-radius: 10px 10px 10px 10px;
+    }
+    .team-member {
+      margin-bottom: 20px;
+    }
+    .team-member img {
+      max-width: 100%;
+	  border-radius: 10px 10px 10px 10px;
+	  border: 2px solid #6800AF;
+	  
+    }
+    .quote {
+      margin-top: 20px;
+    }
+	
+	.quote-img {
+	  max-width: 100%;
+	  border-radius: 10px 10px 10px 10px;
+	  border: 2px solid #6800AF;
+	}
+	
+	#home {
+		font-family:"Dancing Script", cursive;
+	}
+  </style>
 </head>
-<body>
 
+<body style="background-color: #E9C9FF; font-family:WildWest; color: white;">
 	<nav class="navbar">
-		<ul class="nav-links">
-			<li><a id="Home" href="HomeHackViolet.html">F*ck the Patriarchy</a></li>
-			<li><a href="GuideHackViolet.html">Women's Guide to Life</a></li>
-			<li><a href="HackViolet.html">Women in STEM</a></li>
-		</ul>
-	</nav>
-	<div class="jumbotron">
-	<div class="container">
-	<h2 id="title" style="margin: 7px; font-size: 45px" > The Past and Present of Girl Bosses in Computing </h2>
-
-	<p style="margin: 7px 7px 7px 30px; font-size:20px;" >The history of women in computers and my takes on them </p>
-	</div>
-	</div>
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a id="home" class="navbar-brand" href="HomeHackViolet.html" style="color: white;">F*ck the Patriarchy</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="GuideHackViolet.html" style="color: white;">Women's Guide to Life</a></li>
+          <li><a href="HackViolet.html" style="color: white;">Historical Women</a></li>
+		  <li><a href="AboutHackViolet.html" style="color: white;">Citations</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="jumbotron">
+    <div class="container">
+      <h2>Historical Women in STEM</h2>
+      <p>
+        The history of women in STEM and my takes on them!
+      </p>
+    </div>
+  </div>
+	
+		<div class="container">
+    <div class="row team-member">
+      <div class="col-md-8" style="background-color: #6800AF; border-radius: 10px 10px 10px 10px; color: white; font-size: 15pt">
+        <h3 style="font-size: 22pt">Ada Lovelace</h3>
+        <p>
+           Ada Lovelace was an English mathmatician, and is credited with being the worlds first computer programmer (slay). She worked on Babbage's Analytical Engine, and her work was so exemplary that she even has a coding language named after her.
+      </p>
+	  <p>
+		Ella's opinon: Ada is an inspriation to all women in computing, as she not only paved the way for women in the field, but for the field in general. Her work was not defined by her gender, but for her intelligence, which is why she is my roman empire, slay queen.
+	  </p>
+	  </div>
+      <div class="col-md-4">
+        <img src="https://georgetowner.com/wp-content/uploads/2022/08/H-Stephanie-Jae-Park-Ta_Rea-Campbell-Paige-Smallwood-HAMILTON-National-Tour-c-Joan-Marcus-2021-2048x1238.jpg" alt="The Schuyler Sisters"  class="img-responsive" />
+      </div>
+    </div>
 	
 	<div>
 	<div class="image-text-wrapper">
