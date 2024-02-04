@@ -4,11 +4,16 @@
 	box-sizing: border-box;
 }
 
+#Home {
+	font-family: "Dancing Script", cursive;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
+
 /*6800AF*/
 body {
 	background-color: #c0c0c0;
@@ -30,7 +35,7 @@ body {
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 25px;
 }
 
 .nav-links a:hover {
