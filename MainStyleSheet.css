@@ -13,18 +13,21 @@ ul {
     padding: 0;
 }
 /*6800AF*/
-body {
-	background-color: #6800AF;
-	color: white;
-}
-
-.navbar {
-    background-color:#E515F5;
-    overflow: hidden;
-	position: sticky;
-	top:0;
-	z-index: 1000;
-}
+.body {
+	  background-color: #E9C9FF;
+	  font-family:WildWest;
+	  color: white;
+	}
+    /* Add custom styles here */
+    .navbar {
+      background-color: #F77EFF;
+      overflow: hidden;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+	  padding: 0px;
+	}
 
 .nav-links a {
 	float:left;
@@ -33,13 +36,13 @@ body {
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .nav-links a:hover {
     background-color: #c0c0c0;
     color: black;
-}
+} 
 
 #title {
 	font-size:40px;
