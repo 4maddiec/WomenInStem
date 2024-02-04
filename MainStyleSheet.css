@@ -11,12 +11,12 @@ ul {
 }
 /*6800AF*/
 body {
-	background-color: #c0c0c0;
+	background-color: #FF0C9F;
 	color: white;
 }
 
 .navbar {
-    background-color: #161c20;
+    background-color:#E515F5;
     overflow: hidden;
 	position: sticky;
 	top:0;
