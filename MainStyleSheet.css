@@ -19,12 +19,14 @@ body {
 }
 
 .navbar {
-    background-color:#E515F5;
-    overflow: hidden;
-	position: sticky;
-	top:0;
-	z-index: 1000;
-}
+      background-color: #F77EFF;
+      overflow: hidden;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+	  padding: 0px;
+    }
 
 .nav-links a {
 	float:left;
